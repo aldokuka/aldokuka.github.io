@@ -1,1 +1,1 @@
-# //https..//aldokuka.github.io
+# https://aldokuka.github.io
