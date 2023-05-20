@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="Assignment2_Kuka.css">
+    
+    <style>
+        ul { text-align: center; }
+        .assignment-container {
+            width: 70%;
+            height: 300px;
+            overflow: auto;
+            border: 1px solid black;
+            margin: auto;
+        }
+        .assignment-content {
+            padding: 20px;
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 40%;
+        }
+        th, td {
+            border: 2px double black;
+            padding: 5px;
+            text-align: center;
+        }
+        tr:first-child {
+            background-color: yellow;
+        }
+        tr:nth-child(2),
+        tr:nth-child(3) {
+            background-color: pink;
+        }
+        .container {
+            width: 500px;
+            height: 110px;
+            border: 2px solid red;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+        }
+        .paragraph {
+            text-align: left;
+        }
+        .search-button {
+            margin-top: 100px;
+        }
+        .container {
+            position: relative;
+            width: 1200px;
+            height: 130px;
+            border: 2px solid red;
+            padding: 2px;
+        }
+        .paragraph {
+            text-align: left;
+        }
+        .search-button {
+            position: absolute;
+            bottom: 1px;
+            left: 1px;
+        }
+        textarea {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .scrollable {
+            overflow: hidden;
+            height: 450px;
+        }
+        .image-box {
+            border: 2px solid rgb(235, 196, 38);
+            border-radius: 10px;
+            display: inline-block;
+            padding: 10px;
+        }
+        .image-box img {
+            width: 385px;
+            height: 160px;
+            border-radius: 10px; 
+        }
+        .image-box p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <a href="#">HOME</a><br>
+        <a href="#">ABOUT</a><br>
+        <a href="#">BOOK</a><br>
+        <a href="#">CONTACT</a><br>
+    </ul>
+
+    <div class="form-container">
+        <form action="https://www.example.com/search" method="GET">
+            <input type="text" name="query" placeholder="Search for this website">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+    <br>
+
+    <table>
+        <tr>
+            <th></th>
+            <th>Withdraw</th>
+            <th>Credit</th>
+            <th>Balance</th>
+        </tr>
+        <tr>
+            <th>September</th>
+            <td>$250</td>
+            <td>$660</td>
+            <td>$410</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <img src="Statue of Liberty.jpg" alt="StatueofLiberty" width="285" height="200">
+
+    <div class="container">
+        <p class="paragraph">This is the hot pink paragraph, font family is Arial</p>
+        <p>This is the pink paragraph, font color is Courier</p>
+        <p>This is the lightpink paragraph, font family is Corsiva</p>
+
+        <button class="search-button">This is another button</button>
+    </div>
+
+    <form>
+        <br>
+        <textarea id="comment" name="comment" rows="8" cols="90">&lt;p&gt;Study button, input, form and textarea elements&lt;/p&gt;</textarea><br>
+    </form>
+
+    <br>
+  
+    <div class="scrollable">
+      <iframe src="Assignment1_Kuka.html" width="50%" height="100%"></iframe>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="image-box">
+      <img src="Miami.jpg" alt="Miami">
+      <p>some text</p>
+      <p>some text</p>
+      <p>some text</p>
+    </div>
+    <div class="image-box">
+      <img src="Chicago.jpg" alt="Chicago">
+      <p>some text</p>
+      <p>some text</p>
+      <p>some text</p>
+    </div>
+    <div class="image-box">
+      <img src="vegas.jpg" alt="vegas">
+      <p>some text</p>
+      <p>some text</p>
+      <p>some text</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+</body>
+</html>
