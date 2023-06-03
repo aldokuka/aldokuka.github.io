@@ -1,0 +1,108 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: #7097a4;
+    margin-top: 30px;
+  }
+  
+  header {
+    background-color: gainsboro;
+    color: #0f7090;
+    width: 28%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  
+  .inputTextField,
+  #buttonCelciusTemperature,
+  #buttonFahrenheitTemperature {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    border: solid bisque;
+  }
+  
+  .formBMI {
+    width: 370px;
+  }
+  
+  .formButtons {
+    border: none;
+    align-self: center;
+  }
+  
+  #buttonBMI {
+    background-color: #0f7090;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #buttonBMI:hover {
+    background-color: gainsboro;
+  }
+  
+
+  .temperatureConverterContainer {
+    display: flex;
+    flex-direction: column;
+    color: #0f7090;
+    background-color: rgb(243, 238, 228);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid;
+    margin-bottom: 30px;
+  }
+
+  #buttonCelciusTemperature,
+  #buttonFahrenheitTemperature {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #buttonFahrenheitTemperature {
+    background-color: #0f7090;
+  }
+  
+  #buttonFahrenheitTemperature:hover {
+    background-color: orange;
+  }
+  
+  #buttonCelciusTemperature {
+    background-color: #0f7090;
+  }
+  
+  #buttonCelciusTemperature:hover {
+    background-color: orange;
+  }
+  
+  .temperatureConverterContainer {
+    margin-top: 20px;
+  }
