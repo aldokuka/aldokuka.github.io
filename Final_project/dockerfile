@@ -1,0 +1,25 @@
+# Use the official Python image as the base image
+FROM python:3.9
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the requirements file and install the dependencies
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy the application files to the container
+COPY app.py .
+COPY transaction.db .
+COPY templates templates
+COPY static static
+
+# Expose the port that the app runs on
+EXPOSE 5000
+
+# Set the environment variables
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+
+# Run the command to start the Flask application
+CMD ["flask", "run", "--host=0.0.0.0"]

@@ -1,0 +1,17 @@
+
+<h2>Add Transaction</h2>
+<form action="/add_transaction" method="POST">
+    <input type="text" name="description" placeholder="Description">
+    <input type="number" name="amount" placeholder="Amount">
+    <select name="category">
+      
+        <option value="{{ category }}"></option>
+   
+    </select>
+    <select name="transaction_type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+    </select>
+    <button type="submit">Add Transaction</button>
+</form>
+
